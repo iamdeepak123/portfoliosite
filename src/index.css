@@ -908,6 +908,9 @@ html {
 
 
     }
+    .cardslist::-webkit-scrollbar{
+        height: 0px;
+    }
 
     .project_description {
         font-size: 14px;
