@@ -644,11 +644,10 @@ html {
     padding: 0%;
     color: white;
     text-align: center;
+    caret-color: transparent;
 }
 
-.form_heading_icon {
-    color: blue;
-}
+
 
 .contactform_btn {
     height: 45px;
@@ -779,6 +778,9 @@ html {
     color: rgb(226, 217, 217);
 }
 
+.cardslist::-webkit-scrollbar{
+    height: 0px;
+}
 .card {
     height: 400px;
     width: 290px;
