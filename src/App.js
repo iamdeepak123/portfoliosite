@@ -14,26 +14,11 @@ function App() {
   return (
     <>
       <Navbar />
-
-      {/* <Routes>
-
-        <Route path='/' element={<HomePage />} >
-        
-          <Route path='/project/:name/:id' element={<SingleProjectPage />} />
-        
-
-      </Routes> */}
-
-
-
-      {/* <HomePage /> */}
-      {/* <ProjectCard/> */}
+      <HomePage />
       <AboutMe />
-      {/* <MyWork /> */}
+      <MyWork />
       <ContactMe />
-      {/* <Footer /> */}
-
-
+      <Footer />
 
     </>
   );
