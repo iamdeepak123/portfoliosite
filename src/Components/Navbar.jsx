@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-scroll"
 import { FiAlignRight } from "react-icons/fi";
+import { TbSquareRoundedLetterD } from "react-icons/tb";
 
 import { AiFillCloseCircle } from "react-icons/ai";
 
@@ -12,7 +13,8 @@ const Navbar = () => {
     <>
       <div className="navbar_container">
         <div className="nav_logo">
-          <div className="imgs">Karki</div>
+          <div className="imgs"><TbSquareRoundedLetterD fontSize={"50px"} />
+          </div>
         </div>
         
         <ul className={ active ? 'menu_list' : "menu_list active" }>

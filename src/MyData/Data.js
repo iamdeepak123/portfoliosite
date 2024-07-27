@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        name: "E-Commerce",
+        name: "E-Commerce-App",
         codelink: "https://github.com/iamdeepak123/my_ecomm_website",
         projectlink: "https://my-ecomm-website.vercel.app/",
         image: "https://drive.google.com/file/d/10O54BOWd0FS6yQ6QgyYAqMkVx4c9zuzQ/view?usp=drive_link.png",
@@ -22,7 +22,7 @@ const data = [
     },
     {
         id: 3,
-        name: "ToDoList-React",
+        name: "ToDoList-React-App",
         codelink: "https://github.com/iamdeepak123/TodoList-React",
         projectlink: "https://todo-list-react-omega-five.vercel.app/",
         image: "",

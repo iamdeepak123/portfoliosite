@@ -14,9 +14,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <HomePage />
+       <HomePage />
       <AboutMe />
-      <MyWork />
+      <MyWork /> 
       <ContactMe />
       <Footer />
 
