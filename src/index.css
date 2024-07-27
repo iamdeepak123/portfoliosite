@@ -11,15 +11,16 @@ html {
 
 /* ---------------------Navbar Styling-------------------- */
 .navbar_container {
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     caret-color: transparent;
     background: #03045E;
-
     z-index: 1;
+    opacity: 0.8;
+    position: fixed;
 }
 
 .nav_logo {
@@ -40,6 +41,7 @@ html {
     height: 100%;
     width: 60%;
     gap: 60px;
+
     margin-left: 0px;
 
 }
@@ -82,6 +84,11 @@ html {
 
 
 @media (max-width: 1000px) {
+    .navbar_container {
+        height: 6vh;
+        opacity: 1;
+    }
+
     .menu_list {
         position: fixed;
         background-color: #0077B6;
@@ -97,6 +104,7 @@ html {
         padding: 0px;
         transition: ease-in-out .8s;
         z-index: 99999;
+
         gap: 40px;
     }
 
@@ -110,8 +118,14 @@ html {
 
     }
 
+    .showicon {
+        color: white;
+
+    }
+
     .hideicon {
         display: none;
+        color: white;
 
     }
 
@@ -162,7 +176,7 @@ html {
 .home_Content_Slider {
     width: 40%;
     height: 80%;
-   
+
 }
 
 .home_content {
@@ -215,8 +229,9 @@ html {
 
 .short_description {
     width: 90%;
-    height: 100px;
+    height: 80px;
     color: white;
+    /* border: 1px solid red; */
     align-content: center;
 }
 
@@ -241,7 +256,7 @@ html {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    transition: ease-in-out .7s;
+    transition: ease-in-out .5s;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
@@ -284,9 +299,9 @@ html {
 }
 
 .hero_image_Slider {
-    width: 30%;
+    width: 33%;
     height: 80%;
-   
+
 }
 
 .hero {
@@ -305,17 +320,23 @@ html {
     .Homepage_container {
         flex-direction: column-reverse;
         gap: 0px;
+
     }
 
     .home_Content_Slider {
         width: 90%;
-        height: 60%;
+        height: 55%;
+    }
+
+    .home_content {
+        justify-content: start;
     }
 
     .home_content .heading_one {
         font-size: 25px;
         width: 100%;
         text-align: center;
+
     }
 
     .username {
@@ -326,11 +347,13 @@ html {
 
     .short_description {
         width: 100%;
+
     }
 
     .heading_two {
         width: 100%;
         height: 60px;
+
     }
 
     .social_icons {
@@ -353,12 +376,174 @@ html {
 
     }
 
-
-
     .hero {
-        height: 250px;
-        width: 250px;
+        height: 240px;
+        width: 240px;
 
+    }
+
+}
+
+
+
+
+.aboutMe_container {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+/* ------------------------------------------------Contactme style-------------------------------- */
+
+.Contactpage_Container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(17, 236, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactform_location{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.Contactform_slider{
+    height: 80%;
+    width: 55%;
+}
+
+.Contactdetails_slider{
+    height: 80%;
+    width: 55%;
+}
+.contact_details{
+    height: 100%;
+    border: 1px solid black;
+    width: 100%;
+}
+.location_map {
+    width: 60%;
+    height: 35%;
+    border: 1px solid black;
+    caret-color: transparent;
+}
+
+.Contact_form {
+    width: 60%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.Contact_form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    text-align: left;
+}
+
+.Contact_form input {
+    text-align: left;
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    /* border: 1px solid black; */
+}
+
+.Contact_form textarea {
+    width: 350px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.form_heading{
+    margin: 0px;
+    padding: 0%;
+    color: white;
+    align-content: center;
+}
+
+.form_heading_icon{
+    color: blue;
+}
+
+.contactform_btn {
+    height: 45px;
+    width: 350px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    caret-color: transparent;
+}
+
+.contactform_btn:hover {
+
+  
+    background-color: rgb(56, 56, 243);
+    
+}
+
+
+
+@media(max-width: 800px) {
+
+    .Contactpage_Container{
+        flex-direction: column;
+    }
+
+    .location_map{
+        display: none;
+    }
+
+    .Contactdetails_slider{
+        width:  85%;
+    }
+
+    .Contactform_slider{
+        width:  85%;
+    }
+    .Contact_form button {
+        height: 35px;
+        width: 100px;
+
+    }
+
+    .Contact_form {
+        width: 100%;
+        height: 350px;
+
+    }
+
+    .Contact_form form {
+        width: 50%;
+    }
+
+    .Contact_form input {
+        text-align: left;
+        width: 260px;
+    }
+
+    .Contact_form textarea {
+        width: 260px;
     }
 }
 
@@ -368,25 +553,233 @@ html {
 
 
 
-.aboutMe_container {
-    height: 80vh;
-    width: 100%;
-    background-color: aquamarine;
-}
 
-.Contactpage_Container {
-    height: 80vh;
-    width: 100%;
-    background-color: rgb(17, 236, 163)
-}
+
+
+
+
+
+
+
+
+
+
 
 .mywork_container {
-    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
     width: 100%;
-    background-color: rgb(201, 229, 220)
+
+    background-color: rgb(201, 229, 220);
+    /* border: 1px solid red; */
 }
+
+
+/* --------projectCard styling------------- */
+
+
+
+
+.mywork_heading {
+    height: 140px;
+    width: 90%;
+    border: 1px solid red;
+}
+
+.mywork_heading p {
+    border: 1px solid red;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.cardslist {
+    min-height: 450px;
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card {
+    height: 400px;
+    width: 290px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-sizing: border-box;
+    caret-color: transparent;
+
+}
+
+.card_img {
+    height: 50%;
+    width: 95%;
+    border: 1px solid rgb(18, 17, 17);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_info {
+    height: 45%;
+    width: 95%;
+    border: 1px solid rgb(23, 187, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    border: 1px solid red;
+
+}
+
+.card_btn a {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.headingpart {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    margin-bottom: 5px;
+
+}
+
+.project_name {
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+
+}
+
+.lang_tag {
+    width: 35%;
+    /* border: 1px solid red; */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0077B6;
+    color: white;
+
+}
+
+.project_description {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 50%;
+    font-size: 12px;
+    overflow-y: auto;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.project_description::-webkit-scrollbar {
+    height: 0px;
+}
+
+.card_btn a button {
+    width: 80%;
+    font-size: 13px;
+    font-weight: 200;
+    height: 100%;
+    background-color: rgb(2, 43, 2);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out .6s;
+}
+
+.card_btn a button:hover {
+    background-color: #03045E;
+}
+
+
+@media(max-width: 1000px) {
+    .card {
+        height: 400px;
+        width: 300px;
+
+    }
+
+    .card_btn a {
+        height: 100%;
+        width: 50%;
+
+
+    }
+
+    .project_description {
+        font-size: 14px;
+    }
+}
+
+
 
 .mywork_container img {
     height: 200px;
     width: 200px;
+}
+
+/* -----------Footer style------------- */
+
+.footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    caret-color: transparent;
+}
+
+.footer_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    gap: 5px;
+
+
+}
+
+.footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #03045E;
+    border-radius: 50%;
+
+}
+
+.footer_content {
+    font-size: 2opx;
 }
