@@ -22,7 +22,7 @@ const AboutMe = () => {
   return (
     <Element name='AboutMe'>
       <div className='AboutMe_container'>
-        <Slide className='aboutme_slider' direction='right'>
+        <Slide className='aboutme_slider' direction='down'>
           <div className="Education_details">
 
             <div className="education_heading">
@@ -139,7 +139,7 @@ const AboutMe = () => {
           </div>
         </Slide>
 
-        <Slide direction='left' className='aboutme_slider3'>
+        <Slide direction='down' className='aboutme_slider3'>
           <div className="Experience_details">
             <div className="experience_heading">
               {/* <h4>Explore My</h4> */}
