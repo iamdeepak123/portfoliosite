@@ -1,6 +1,4 @@
 import React from 'react'
-import { Slide } from 'react-awesome-reveal'
-import { Link, NavLink } from 'react-router-dom'
 
 const ProjectCard = (props) => {
 
@@ -13,14 +11,13 @@ const ProjectCard = (props) => {
         lang,
         imgs, } = props
 
-
     return (
 
         <>
-
             <div className="card" key={id}>
 
-                <div className="card_img"><img src={imgs} alt="" />
+                <div className="card_img">
+                <img src={imgs} alt="" />
                 </div>
 
                 <div className="card_info">

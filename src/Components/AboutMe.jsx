@@ -87,7 +87,7 @@ const AboutMe = () => {
               <div className="skillbox">
                 <div className="skill_image">
 
-                  <p className='skillimg'><FaHtml5 /> </p>
+                  <p className='skillimg'><FaHtml5 style={{color: "red"}}/> </p>
                   <p>HTML</p>
 
 
@@ -98,9 +98,9 @@ const AboutMe = () => {
 
                 <div className="skill_image">
 
-                  <p className='skillimg'><FaCss3Alt /> </p>
+                  <p className='skillimg'><FaCss3Alt style={{color: "blue"}} /> </p>
                   <p>CSS5</p>
-
+                  
                 </div>
                 <div className="skill_name">Experienced</div>
               </div>
@@ -108,28 +108,28 @@ const AboutMe = () => {
               <div className="skillbox">
                 <div className="skill_image">
 
-                  <p className='skillimg'><AiOutlineJavaScript /> </p>
+                  <p className='skillimg'><AiOutlineJavaScript style={{color: "black"}} /> </p>
                   <p>JavaScript</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>
               <div className="skillbox">
                 <div className="skill_image">
-                  <p className='skillimg'> <FaReact /> </p>
+                  <p className='skillimg'> <FaReact style={{color: "blue"}}/> </p>
                   <p> React-JS</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>
               <div className="skillbox">
                 <div className="skill_image">
-                  <p className='skillimg'> <SiJquery /></p>
+                  <p className='skillimg'> <SiJquery style={{color: "skyblue"}}/></p>
                   <p> jQuery</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>
               <div className="skillbox">
                 <div className="skill_image">
-                  <p className='skillimg'>  <RiFirebaseFill /> </p>
+                  <p className='skillimg'>  <RiFirebaseFill style={{color: "#FFE200"}} /> </p>
                   <p> FireStore</p>
                 </div>
                 <div className="skill_name">Intermediate</div>

@@ -10,7 +10,7 @@ html {
 
 /* ---------------------Navbar Styling-------------------- */
 .navbar_container {
-    height: 8vh;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -70,34 +70,75 @@ html {
 
 .menu_tab {
     width: 100%;
-    height: 20px;
+    height: 100px;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: start;
+    align-items: end;
     caret-color: transparent;
+    background-color: #0077B6;
+    
 }
 
-.brightness_icon {
-    width: 15%;
-    height: 80%;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.alert_heading {
+    padding: 0%;
+    margin: 0%;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    /* border: 1px solid red;
+    background-color: #9d3f00; */
+    position: relative;
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left:500px;
+    }
 }
 
 
 @media (max-width: 1000px) {
+    .alert_heading {
+        
+        font-size: 15px;
+        height: 55px;
+        position: relative;
+        position: relative;
+        animation: mymove2 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes mymove2 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 60px;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
     .navbar_container {
-        height: 6vh;
+        height: 50px;
         opacity: 1;
     }
 
     .menu_list {
         position: fixed;
         background-color: #0077B6;
-        top: 6vh;
+        top: 50px;
         right: -100%;
         display: flex;
         flex-direction: column;
@@ -171,7 +212,7 @@ html {
 /*---------------Homepage Styling------------------ */
 
 .Homepage_container {
-    height: 100vh;
+    height: 850px;
     width: 100%;
     background-color: #0077B6;
     display: flex;
@@ -202,17 +243,16 @@ html {
     font-size: 25px;
     margin: 0px;
     padding: 0%;
-    width: 90%;
+    width: 95%;
     height: 30px;
     /* border: 1px solid red; */
     font-weight: 900;
-    margin-bottom: 10px;
     align-content: center;
 }
 
 .username {
-    margin-bottom: 10px;
-    width: 90%;
+ 
+    width: 95%;
     height: 60px;
     /* border: 1px solid red; */
     font-size: 50px;
@@ -224,7 +264,7 @@ html {
 .heading_two {
     margin: 0px;
     color: white;
-    width: 90%;
+    width: 95%;
     height: 30px;
     align-content: center;
     /* border: 1px solid red; */
@@ -236,8 +276,8 @@ html {
 }
 
 .short_description {
-    width: 90%;
-    height: 80px;
+    width: 95%;
+    height: 150px;
     color: white;
     /* border: 1px solid red; */
     align-content: center;
@@ -247,9 +287,9 @@ html {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     height: 10%;
-    width: 90%;
+    width: 95%;
     /* border: 1px solid red; */
 }
 
@@ -276,7 +316,7 @@ html {
 
 .CV_download {
     height: 40px;
-    width: 90%;
+    width: 95%;
     justify-content: start;
     display: flex;
     align-content: center;
@@ -398,7 +438,7 @@ html {
 
 
 .AboutMe_container {
-    min-height: 700px;
+    min-height: 800px;
     height: auto;
     width: 100%;
     background-color: #00509d;
@@ -817,7 +857,7 @@ h2 {
 /* ------------------------------------------------Contactme style-------------------------------- */
 
 .Contactpage_Container {
-    height: 100vh;
+    height: 950px;
     width: 100%;
     background-color: #064789;
     display: flex;
@@ -829,13 +869,13 @@ h2 {
 
 .Contactform_slider {
     height: 80%;
-    width: 30%;
+    width: 35%;
     /* border: 1px solid black; */
 }
 
 .Contactdetails_slider {
     height: 80%;
-    width: 30%;
+    width: 35%;
     /* border: 1px solid black; */
 }
 
@@ -873,15 +913,19 @@ h2 {
     gap: 10px;
 }
 
+.contact_details_heading p {
+    margin: 0px;
+}
+
 .contact_details_heading,
-.contactp1,
+
 .Call_details,
 .mail_details,
 .location_details,
 .social_icon_details {
     margin: 0px;
     padding: 0%;
-    width: 80%;
+    width: 90%;
     /* border: 1px solid red; */
     padding: 10px;
     box-sizing: border-box;
@@ -889,7 +933,7 @@ h2 {
 
 .contacth1 {
     height: 100%;
-    width: 90%;
+    width: 70%;
     padding: 0px;
     align-content: center;
     font-size: 29px;
@@ -904,7 +948,7 @@ h2 {
     display: flex;
     justify-content: start;
     height: 35%;
-    gap: 5px;
+    gap: 15px;
     align-items: center;
     /* border: 1px solid red; */
 }
@@ -937,7 +981,10 @@ h2 {
     text-align: justify;
     font-size: 20px;
     width: 100%;
-    padding-top: 0%;
+    padding: 0%;
+    margin: 0px;
+    /* border: 1px solid red; */
+
     /* overflow-y: auto;
     overflow-x: hidden; */
 }
@@ -956,13 +1003,14 @@ h2 {
 .Call_details,
 .location_details,
 .social_icon_details {
-    width: 80%;
-    height: 20%;
+    width: 90%;
+    height: 70px;
     display: flex;
     gap: 10px;
     font-size: 22px;
     align-items: center;
     color: white;
+    /* border: 1px solid black; */
 }
 
 .mail_details,
@@ -971,7 +1019,7 @@ h2 {
 a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .Call_icon,
@@ -1004,15 +1052,15 @@ a {
 
 .social_icon_details a {
     border: 1px solid pink;
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     color: white;
-    transition: ease-in-out .4s;
+    transition: ease-in-out .3s;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 
 }
@@ -1024,14 +1072,14 @@ a {
 
 .location_map {
     width: 80%;
-    height: 35%;
+    height: 28%;
     /* border: 1px solid black; */
     caret-color: transparent;
 }
 
 .Contact_form {
     width: 80%;
-    height: 65%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1107,21 +1155,38 @@ a {
 
     .Contactpage_Container {
         flex-direction: column;
+        gap: 40px;
     }
-    .forslideonly {
-        flex-direction: column;
-    }
+
     .Contactdetails_slider {
-        width: 65%;
+        width: 80%;
         margin-top: 20px;
-        height: 40%;
+        height: 45%;
+    }
+
+    .contact_details_info {
+        height: 60%;
+        /* border: 1px solid black; */
+
+    }
+
+    .contact_details_heading {
+        height: 38%;
+        width: 100%;
+        padding: 0;
+        border: none;
     }
 
     .Contactform_slider {
-        width: 65%;
+        width: 80%;
         height: 40%;
     }
 
+    .contact_details {
+        width: 100%;
+        height: 430px;
+
+    }
 
     .location_map {
         display: none;
@@ -1160,7 +1225,10 @@ a {
     .social_icon_details {
 
         width: 100%;
+    }
 
+    .mail_details a {
+        overflow: hidden;
     }
 
     .mail_details,
@@ -1172,11 +1240,7 @@ a {
         font-size: 15px;
     }
 
-    .contact_details_heading {
-        height: 50%;
-        width: 100%;
-        padding: 0;
-    }
+
 
     .contacth1 {
         height: 60%;
@@ -1185,11 +1249,12 @@ a {
     }
 
     .contactp1 {
-        height: 60%;
+        height: 70%;
         color: white;
         text-align: justify;
         font-size: 17px;
-
+        padding: 7px;
+        box-sizing: border-box;
     }
 
     .contact_mh1 h3 {
@@ -1198,34 +1263,17 @@ a {
     }
 
     .contact_mh1 {
-        height: 30%;
+        height: 28%;
         width: 100%;
     }
 
     .contacth1_icon {
-        height: 60%;
+        height: 40px;
         font-size: 25px;
         margin-left: 5px;
-        width: 45px;
+        width: 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .mywork_container {
@@ -1235,7 +1283,6 @@ a {
     flex-direction: column;
     min-height: 800px;
     width: 100%;
-
     background-color: #00296b;
     /* border: 1px solid red; */
 }
@@ -1305,17 +1352,25 @@ a {
 }
 
 .card_img {
-    height: 50%;
+    height: 40%;
     width: 95%;
-    border: 1px solid rgb(18, 17, 17);
+    /* border: 1px solid rgb(18, 17, 17); */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.card_img,
+img {
+    height: 190px;
+    width: 260px;
+    border-radius: 10px;
+
 }
 
 .card_info {
     height: 45%;
     width: 95%;
-    border: 1px solid rgb(5, 5, 5);
+    /* border: 1px solid rgb(5, 5, 5); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1429,11 +1484,6 @@ a {
 
 
 
-.mywork_container img {
-    height: 200px;
-    width: 200px;
-}
-
 /* -----------Footer style------------- */
 
 .footer {
@@ -1470,4 +1520,12 @@ a {
 .footer_content {
     font-size: 20px;
     color: white;
+}
+
+@media(max-width: 1000px) {
+    .footer_content {
+        font-size: 15px;
+
+    }
+
 }

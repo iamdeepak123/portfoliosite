@@ -12,6 +12,8 @@ import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiTwitter } from "react-icons/ci";
 import { CgHello } from "react-icons/cg";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 const ContactMe = () => {
   return (
@@ -37,13 +39,13 @@ const ContactMe = () => {
             </div>
 
             <div className="contact_details_info">
-              <div className='mail_details'>
+               <div className='mail_details'>
                 <p className="Mail_icon"><CiMail /></p>
-                <a href="#">deepakkarki.work@gmail.com</a>
+                <a href="mailto:deepakkarki.work@gmail.com"> Drop an Email</a>
               </div>
               <div className='Call_details'>
                 <p className="Call_icon"><IoMdCall /></p>
-                <p>941-059-9517</p>
+               <a href="tel:+9410599517">Call Me</a>
               </div>
               <div className='location_details'>
                 <p className="location_icon"><FaLocationDot /></p>
@@ -56,7 +58,8 @@ const ContactMe = () => {
                 <a href="https://www.instagram.com/iamdeepakkarki/" target='blank'><FaInstagram /></a>
                 <a href="https://www.facebook.com/" target='blank'> <CiFacebook /></a>
                 <a href="https://x.com/" target='blank'>  <CiTwitter /></a>
-              </div>
+                <a href="https://wa.me/9410599517?text=Hey%20Let's%20Connect" target='blank'><FaWhatsapp /> </a>
+              </div> 
             </div>
 
           </div>

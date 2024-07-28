@@ -1,10 +1,16 @@
+import ecom_img from "../images/Ecomm.png";
+import chatimg from "../images/Chat_Image.png"
+import digical from "../images/digical.png"
+import Todoimg from "../images/TodoApp.png"
+
+
 const data = [
     {
         id: 1,
         name: "E-Commerce-App",
         codelink: "https://github.com/iamdeepak123/my_ecomm_website",
         projectlink: "https://my-ecomm-website.vercel.app/",
-        image: "https://drive.google.com/file/d/10O54BOWd0FS6yQ6QgyYAqMkVx4c9zuzQ/view?usp=drive_link.png",
+        image: ecom_img,
         Description: "This is E-Commerce website using React, HTML, CSS and Firebase for authentication. It has features like Product Listings, “Add to Cart” Functionality, Google Authentication,Checkout Process. cart list items is stored at localstorage. The design is fully Responsive for mobile and laptop devices. Cart pAge display product details (name, quantity, price) in the cart and Allow users to adjust quantities or remove items.",
         language: "React-JS",
         featured: true,
@@ -15,7 +21,7 @@ const data = [
         name: "Chat-Room-App",
         codelink: "https://github.com/iamdeepak123/my-react-chatapp",
         projectlink: "https://my-react-chatapp.vercel.app/",
-        image: "/src/images/Chat_Image.png",
+        image: chatimg,
         Description: "This is Chat Room app where you can login using google or create an new account using email/password. It has Real-time chat functionality , Google sign-in using Firebase Authentication. and Chatroom messages stored in Firebase's Cloud Firestore. You have just have to login and enter the chat room Name of your choice and share the same with other, and start chatting with other. This app is fully Responsive for mobile and laptop",
         language: "Typescript",
         featured: true,
@@ -25,7 +31,7 @@ const data = [
         name: "ToDoList-React-App",
         codelink: "https://github.com/iamdeepak123/TodoList-React",
         projectlink: "https://todo-list-react-omega-five.vercel.app/",
-        image: "",
+        image: Todoimg,
         Description: "ToDo list app built using React it has Features like Add New Task, Users can input and add new tasks to their list, Delete Task: Tasks can be removed from the list. user task will be store in local storage. You can also mark task as completed and it will move from todo list to Completed list ",
         language: "React-JS",
         featured: true,
@@ -36,7 +42,7 @@ const data = [
         name: "Digital-Calculator",
         codelink: "https://github.com/iamdeepak123/digital_calculator",
         projectlink: "https://digital-calculator-rust.vercel.app/",
-        image: "",
+        image: digical,
         Description: "JavaScript calculator is a web-based tool that performs basic mathematical operations. Here's a concise overview: It has features of Addition, subtraction, multiplication, and division operations. Decimal support, Clear button to reset calculations",
         language: "JavaScript",
         featured: true,

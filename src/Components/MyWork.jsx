@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard"
 
 const MyWork = () => {
 
-console.log(data)
+
 
  const featureddata = data.filter((elem)=>{return elem.featured ===true});
 
