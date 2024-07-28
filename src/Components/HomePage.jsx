@@ -14,7 +14,7 @@ const HomePage = () => {
 
       <div className='Homepage_container'>
 
-        <Slide direction='up' className='home_Content_Slider' >
+        <Slide direction='down' className='home_Content_Slider' >
           <div className="home_content">
             <h3 className='heading_one'>Hi I'm </h3>
             <span className='username'>Deepak Karki</span>
@@ -36,7 +36,7 @@ const HomePage = () => {
 
 
 
-        <Slide direction='down' className='hero_image_Slider' >
+        <Slide direction='up' className='hero_image_Slider' >
           <div className="hero_image">
             <div className="hero">
 
