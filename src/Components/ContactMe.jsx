@@ -18,7 +18,10 @@ const ContactMe = () => {
     <Element name='ContactMe'>
 
       <div className='Contactpage_Container'>
-        <Fade direction='right' className='Contactdetails_slider'>
+
+        
+        
+         <Slide direction='up' className='Contactdetails_slider'>
 
           <div className="contact_details">
             <div className="contact_details_heading">
@@ -58,11 +61,11 @@ const ContactMe = () => {
 
           </div>
 
-        </Fade>
+        </Slide>
 
 
 
-          <Slide direction='right' className='Contactform_slider'>
+          <Slide direction='down' className='Contactform_slider'>
 
 
             <div className="contactform_location">
@@ -91,11 +94,11 @@ const ContactMe = () => {
               </div>
             </div>
 
-          </Slide>
+          </Slide> 
 
+</div>
 
-
-      </div>
+      
 
 
     </Element>)

@@ -17,11 +17,11 @@ console.log(data)
 
         <div className="mywork_container">
           <div className="mywork_heading">
-            <Slide cascade direction='left'>
+            <Slide cascade direction='down'>
               <p>My Recent Projects</p>
               
             </Slide>
-            <Slide cascade direction='right'>
+            <Slide cascade direction='up'>
               <p>Check this Out</p>
             </Slide>
           </div>

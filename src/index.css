@@ -428,6 +428,7 @@ html {
     border-radius: 15px;
 
 }
+
 .aboutme_slider3 {
     width: 40%;
     height: 550px;
@@ -681,7 +682,7 @@ h2 {
 
 }
 
-.exp_part1{
+.exp_part1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -692,7 +693,7 @@ h2 {
     gap: 10px;
 }
 
-.exp1_icon{
+.exp1_icon {
     height: 90%;
     width: 20%;
     display: flex;
@@ -702,11 +703,11 @@ h2 {
     /* border: 1px solid red; */
     border-radius: 50%;
     color: blue;
-    
+
 }
 
 
-.exp1_title{
+.exp1_title {
     height: 100%;
     width: 70%;
     display: flex;
@@ -716,15 +717,16 @@ h2 {
     /* border: 1px solid red; */
 }
 
-.exp1_title_h4,.exp1_title{
+.exp1_title_h4,
+.exp1_title {
     margin: 0%;
     padding: 0%;
     width: 100%;
     margin-left: 5px;
 }
 
-.exp_part2{
-    
+.exp_part2 {
+
     width: 100%;
     height: 65%;
     flex-direction: column;
@@ -732,13 +734,13 @@ h2 {
     /* border: 1px solid red; */
 }
 
-.exp_part2 li{
+.exp_part2 li {
     margin-left: 10px;
     margin-top: 5px;
     font-size: 16px;
     text-align: start;
     padding-left: 5px;
-    list-style:inside;
+    list-style: inside;
 }
 
 @media(max-width: 1000px) {
@@ -760,11 +762,13 @@ h2 {
         height: 480px;
         /* border: 1px solid black; */
     }
+
     .aboutme_slider3 {
         width: 99%;
         height: 480px;
         /* border: 1px solid black; */
     }
+
     .skill_image {
         font-size: 16px;
     }
@@ -801,10 +805,10 @@ h2 {
         background-color: orange;
     }
 
-    .exp_part2 li{
+    .exp_part2 li {
         margin-left: 5px;
         font-size: 13px;
-        
+
     }
 }
 
@@ -821,16 +825,18 @@ h2 {
     align-items: center;
 }
 
+
+
 .Contactform_slider {
     height: 80%;
-    width: 45%;
-    border: 1px solid black;
+    width: 30%;
+    /* border: 1px solid black; */
 }
 
 .Contactdetails_slider {
     height: 80%;
-    width: 45%;
-    border: 1px solid black;
+    width: 30%;
+    /* border: 1px solid black; */
 }
 
 .contactform_location {
@@ -1017,25 +1023,26 @@ a {
 }
 
 .location_map {
-    width: 46%;
+    width: 80%;
     height: 35%;
     /* border: 1px solid black; */
     caret-color: transparent;
 }
 
 .Contact_form {
-    width: 60%;
+    width: 80%;
     height: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid black; */
 
 }
 
 .Contact_form form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: 80%;
     align-items: center;
     text-align: left;
@@ -1048,17 +1055,21 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
     border: none;
     /* border: 1px solid black; */
 }
 
 .Contact_form textarea {
     width: 96%;
-
+    box-sizing: border-box;
     margin-bottom: 10px;
     outline: none;
     border: none;
     resize: none;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .form_heading {
@@ -1066,6 +1077,7 @@ a {
     padding: 0%;
     color: white;
     text-align: center;
+    font-size: 30px;
     caret-color: transparent;
 }
 
@@ -1096,16 +1108,18 @@ a {
     .Contactpage_Container {
         flex-direction: column;
     }
-
+    .forslideonly {
+        flex-direction: column;
+    }
     .Contactdetails_slider {
-        width: 80%;
+        width: 65%;
         margin-top: 20px;
-        height: 50%;
+        height: 40%;
     }
 
     .Contactform_slider {
-        width: 80%;
-        height: 45%;
+        width: 65%;
+        height: 40%;
     }
 
 
@@ -1116,6 +1130,7 @@ a {
     .contactform_btn {
         height: 35px;
         width: 100%;
+        font-size: 15px;
     }
 
     .Contact_form {
@@ -1125,16 +1140,16 @@ a {
     }
 
     .Contact_form form {
-        width: 80%;
+        width: 90%;
     }
 
     .Contact_form input {
         text-align: left;
-        width: 98%;
+        width: 100%;
     }
 
     .Contact_form textarea {
-        width: 98%;
+        width: 100%;
     }
 
     .contacth1,
@@ -1146,6 +1161,15 @@ a {
 
         width: 100%;
 
+    }
+
+    .mail_details,
+    .Call_details,
+    .location_details,
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
     }
 
     .contact_details_heading {
@@ -1164,7 +1188,7 @@ a {
         height: 60%;
         color: white;
         text-align: justify;
-        font-size: 19px;
+        font-size: 17px;
 
     }
 
@@ -1232,11 +1256,11 @@ a {
     align-items: center;
     flex-direction: column;
     caret-color: transparent;
-    
+
 }
 
 .mywork_heading p {
- 
+
     text-align: center;
     font-size: 25px;
     width: 100%;
