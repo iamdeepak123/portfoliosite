@@ -1,7 +1,7 @@
 import React from 'react'
 import { Element } from "react-scroll"
 import data from "../MyData/Data"
-import { Slide } from 'react-awesome-reveal'
+import { Bounce, Slide } from 'react-awesome-reveal'
 import ProjectCard from "./ProjectCard"
 
 const MyWork = () => {
@@ -28,7 +28,7 @@ console.log(data)
 
           <div className="cardslist">
 
-            <Slide direction='up'>
+            <Bounce>
             {
             featureddata.map((curElem)=>{
               return <ProjectCard
@@ -44,7 +44,7 @@ console.log(data)
             })
            }
 
-            </Slide>
+            </Bounce>
           
 
 

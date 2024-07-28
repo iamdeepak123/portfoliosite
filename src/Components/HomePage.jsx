@@ -18,6 +18,7 @@ const HomePage = () => {
           <div className="home_content">
             <h3 className='heading_one'>Hi I'm </h3>
             <span className='username'>Deepak Karki</span>
+            
             <h2 className='heading_two'>And I am a <span>Front End Developer</span></h2>
             <p className='short_description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et culpa enim nisi eaque veritatis fugiat unde alias velit incidunt tenetur ipsum laborum rerum, perspiciatis maxime cumque consequatur? Incidunt, optio officia.</p>
             <div className="social_icons">

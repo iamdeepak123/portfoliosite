@@ -56,10 +56,10 @@ html {
     cursor: pointer;
     font-size: 18px;
     transition: .8s;
-    
+
 }
 
-.menu_list li:hover{
+.menu_list li:hover {
     text-decoration: underline;
 
 }
@@ -256,11 +256,12 @@ html {
 
 .social_icons a {
     font-size: 30px;
-    border: 2px solid white;
+    border: 2px solid rgb(15, 37, 205);
     align-content: center;
-    color: blue;
-    width: 40px;
-    height: 40px;
+    color: white;
+    background-color: blue;
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,6 +272,7 @@ html {
 
 .social_icons a:hover {
     background-color: #bec1c2;
+    transform: scale(1.4);
 }
 
 .CV_download {
@@ -367,7 +369,7 @@ html {
 
     .social_icons {
         justify-content: space-around;
-        height: 15%;
+        height: 16%;
         width: 100%;
     }
 
@@ -375,7 +377,6 @@ html {
     .CV_download {
         width: 100%;
     }
-
 
 
 
@@ -405,19 +406,39 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     caret-color: transparent;
 }
 
-.aboutme_slider{
-    width: 30%;
+.aboutme_slider {
+    width: 28%;
     height: 550px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 15px;
 
 }
+
+.aboutme_slider2 {
+    width: 28%;
+    height: 550px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+.aboutme_slider3 {
+    width: 40%;
+    height: 550px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
 .Education_details {
     width: 100%;
     height: 100%;
@@ -426,6 +447,93 @@ html {
     align-items: center;
     flex-direction: column;
 }
+
+.education_list {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.education_box {
+    width: 95%;
+    height: 31%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #0f3549;
+    color: white;
+    opacity: .8;
+
+    gap: 10px;
+    transition: .5s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education_box:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.Education_name_image {
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.college_icon {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.college_icon:hover {
+    background-color: rgb(232, 163, 36);
+}
+
+.Education_name_heading {
+    width: 85%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    row-gap: 2px;
+
+}
+
+.collegename {
+    color: black;
+
+}
+
+.gradep {
+    opacity: .7;
+    font-weight: lighter;
+}
+
+.Education_name_heading p,
+h3 {
+    margin: 0%;
+    padding: 0%;
+}
+
 
 .Skills_details {
     width: 100%;
@@ -436,7 +544,9 @@ html {
     flex-direction: column;
 }
 
-.skills_heading, .education_heading,.experience_heading{
+.skills_heading,
+.education_heading,
+.experience_heading {
     height: 15%;
     width: 100%;
     text-align: center;
@@ -449,7 +559,11 @@ html {
     align-items: center;
 }
 
-.skills_heading,.experience_heading,.education_heading,h4,h2{
+.skills_heading,
+.experience_heading,
+.education_heading,
+h4,
+h2 {
     margin: 0%;
     padding: 0%;
     width: 100%;
@@ -457,7 +571,7 @@ html {
     /* border: 1px solid black; */
 }
 
-.skillimg{
+.skillimg {
     height: 35px;
     width: 35px;
     border: 2px solid rgb(248, 239, 239);
@@ -470,10 +584,12 @@ html {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
     cursor: pointer;
 }
-.skillimg:hover{
+
+.skillimg:hover {
     background-color: #0c2bd8;
 }
-.skills_list{
+
+.skills_list {
     height: 80%;
     width: 100%;
     display: flex;
@@ -481,8 +597,11 @@ html {
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
+    column-gap: 70px;
+    /* border: 1px solid black; */
 }
-.skill_image{
+
+.skill_image {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -490,13 +609,14 @@ html {
     font-size: 20px;
 }
 
-.skill_image p{
-   
+.skill_image p {
+
     align-content: center;
 }
-.skillbox{
-    width: 30%;
-    height: 35%;
+
+.skillbox {
+    width: 37%;
+    height: 26%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
@@ -508,16 +628,18 @@ html {
     opacity: .8;
     transition: .5s;
     cursor: pointer;
-    
+
 }
 
-.skillbox:hover{
+.skillbox:hover {
     opacity: 1;
     transform: scale(1.1);
 }
-.skill_name{
+
+.skill_name {
     font-size: 15px;
 }
+
 .Experience_details {
     width: 100%;
     height: 100%;
@@ -527,31 +649,163 @@ html {
     flex-direction: column;
 }
 
-@media(max-width: 1000px){
+.experience_list {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience_box {
+    width: 98%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #0f3549;
+    color: white;
+    opacity: .8;
+    transition: .5s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.experience_box:hover {
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+.exp_part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    gap: 10px;
+}
+
+.exp1_icon{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    color: blue;
+    
+}
+
+
+.exp1_title{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.exp1_title_h4,.exp1_title{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.exp_part2{
+    
+    width: 100%;
+    height: 65%;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.exp_part2 li{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: start;
+    padding-left: 5px;
+    list-style:inside;
+}
+
+@media(max-width: 1000px) {
     .AboutMe_container {
-       
-      justify-content: space-around;
+
+        justify-content: space-around;
         flex-direction: column;
         gap: 20px;
     }
-    .aboutme_slider{
+
+    .aboutme_slider {
         width: 90%;
-        height: 460px;
-        border: 1px solid black;
-    
+        height: 480px;
+        /* border: 1px solid black; */
     }
-    .skill_image{
+
+    .aboutme_slider2 {
+        width: 95%;
+        height: 480px;
+        /* border: 1px solid black; */
+    }
+    .aboutme_slider3 {
+        width: 97%;
+        height: 480px;
+        /* border: 1px solid black; */
+    }
+    .skill_image {
         font-size: 16px;
     }
 
-    .skill_name{
+    .skill_name {
         font-size: 13px;
     }
 
-    .skillbox{
-        width: 30%;
-        height: 35%;
-      
+    .skillbox {
+        width: 32%;
+        height: 29%;
+        box-sizing: border-box;
+
+    }
+
+    .Education_name_heading p {
+        font-size: 13px;
+    }
+
+    .collegename {
+        font-size: 15px;
+    }
+
+    .college_icon {
+        height: 45px;
+        width: 45px;
+        margin-left: 5px;
+        /* border: 1px solid red; */
+        border-radius: 50%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: orange;
+    }
+
+    .exp_part2 li{
+        margin-left: 5px;
+        font-size: 13px;
+        
     }
 }
 
@@ -568,6 +822,18 @@ html {
     align-items: center;
 }
 
+.Contactform_slider {
+    height: 80%;
+    width: 55%;
+    /* border: 1px solid black; */
+}
+
+.Contactdetails_slider {
+    height: 80%;
+    width: 55%;
+    /* border: 1px solid black; */
+}
+
 .contactform_location {
     height: 100%;
     width: 100%;
@@ -579,20 +845,176 @@ html {
     box-sizing: border-box;
 }
 
-.Contactform_slider {
-    height: 80%;
-    width: 55%;
-}
-
-.Contactdetails_slider {
-    height: 80%;
-    width: 55%;
-}
-
 .contact_details {
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    caret-color: transparent;
+    box-sizing: border-box;
+}
+
+.contact_details_heading {
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_details_heading,
+.contactp1,
+.Call_details,
+.mail_details,
+.location_details,
+.social_icon_details {
+    margin: 0px;
+    padding: 0%;
+    width: 80%;
+    /* border: 1px solid red; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contacth1 {
+    height: 100%;
+    width: 90%;
+    padding: 0px;
+    align-content: center;
+    font-size: 29px;
+    color: yellow;
+    /* border: 1px solid red; */
+}
+
+.contact_mh1 {
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    height: 35%;
+    gap: 5px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.contacth1_icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 5px;
+    background-color: #9d3f00;
+    border-radius: 50%;
+}
+
+.helloicon {
+    /* border: 1px solid red; */
+
+}
+
+.contact_mh1 h3 {
+    font-size: 25px;
+    color: yellow;
+}
+
+.contactp1 {
+    height: 70%;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 0%;
+    /* overflow-y: auto;
+    overflow-x: hidden; */
+}
+
+.contact_details_info {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mail_details,
+.Call_details,
+.location_details,
+.social_icon_details {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    align-items: center;
+    color: white;
+}
+
+.mail_details,
+.Call_details,
+.location_details,
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Call_icon,
+.location_icon,
+.Mail_icon {
+    /* border: 1px solid pink; */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+
+.Mail_icon {
+
+    background-color: blue;
+}
+
+.Call_icon {
+    background-color: green;
+}
+
+.location_icon {
+    background-color: orange;
+}
+
+.social_icon_details a {
+    border: 1px solid pink;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: ease-in-out .4s;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+
+}
+
+.social_icon_details a:hover {
+    background-color: rgb(141, 15, 68);
+    transform: scale(1.2);
 }
 
 .location_map {
@@ -608,7 +1030,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
+
 }
 
 .Contact_form form {
@@ -622,7 +1044,7 @@ html {
 
 .Contact_form input {
     text-align: left;
-    width: 350px;
+    width: 96%;
     height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -632,7 +1054,8 @@ html {
 }
 
 .Contact_form textarea {
-    width: 350px;
+    width: 96%;
+
     margin-bottom: 10px;
     outline: none;
     border: none;
@@ -651,7 +1074,7 @@ html {
 
 .contactform_btn {
     height: 45px;
-    width: 350px;
+    width: 97.5%;
     background-color: blue;
     color: white;
     text-align: center;
@@ -676,22 +1099,25 @@ html {
         flex-direction: column;
     }
 
-    .location_map {
-        display: none;
-    }
-
     .Contactdetails_slider {
         width: 85%;
+        margin-top: 20px;
+        height: 50%;
     }
 
     .Contactform_slider {
         width: 85%;
+        height: 45%;
+    }
+
+
+    .location_map {
+        display: none;
     }
 
     .contactform_btn {
         height: 35px;
-        width: 260px;
-
+        width: 100%;
     }
 
     .Contact_form {
@@ -701,16 +1127,64 @@ html {
     }
 
     .Contact_form form {
-        width: 50%;
+        width: 80%;
     }
 
     .Contact_form input {
         text-align: left;
-        width: 260px;
+        width: 98%;
     }
 
     .Contact_form textarea {
-        width: 260px;
+        width: 98%;
+    }
+
+    .contacth1,
+    .contactp1,
+    .Call_details,
+    .mail_details,
+    .location_details,
+    .social_icon_details {
+
+        width: 100%;
+
+    }
+
+    .contact_details_heading {
+        height: 50%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .contacth1 {
+        height: 60%;
+        font-size: 27px;
+
+    }
+
+    .contactp1 {
+        height: 60%;
+        color: white;
+        text-align: justify;
+        font-size: 19px;
+
+    }
+
+    .contact_mh1 h3 {
+        font-size: 29px;
+        color: yellow;
+    }
+
+    .contact_mh1 {
+        height: 30%;
+        width: 100%;
+    }
+
+    .contacth1_icon {
+        height: 60%;
+        font-size: 25px;
+        margin-left: 5px;
+        width: 45px;
     }
 }
 
@@ -778,9 +1252,10 @@ html {
     color: rgb(226, 217, 217);
 }
 
-.cardslist::-webkit-scrollbar{
+.cardslist::-webkit-scrollbar {
     height: 0px;
 }
+
 .card {
     height: 400px;
     width: 290px;
@@ -899,6 +1374,7 @@ html {
     .card {
         height: 400px;
         width: 300px;
+        margin-bottom: 20px;
 
     }
 
@@ -908,7 +1384,8 @@ html {
 
 
     }
-    .cardslist::-webkit-scrollbar{
+
+    .cardslist::-webkit-scrollbar {
         height: 0px;
     }
 
