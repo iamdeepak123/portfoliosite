@@ -18,7 +18,7 @@ const ContactMe = () => {
     <Element name='ContactMe'>
 
       <div className='Contactpage_Container'>
-        <Slide direction='right' className='Contactdetails_slider'>
+        <Fade direction='right' className='Contactdetails_slider'>
 
           <div className="contact_details">
             <div className="contact_details_heading">
@@ -58,11 +58,11 @@ const ContactMe = () => {
 
           </div>
 
-        </Slide>
+        </Fade>
 
 
 
-          <Slide direction='left' className='Contactform_slider'>
+          <Slide direction='right' className='Contactform_slider'>
 
 
             <div className="contactform_location">
