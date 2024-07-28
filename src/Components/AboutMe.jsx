@@ -189,9 +189,9 @@ const AboutMe = () => {
 
                 <div className="exp_part2">
                   <li>Integrated a real-time chat feature using Firebase.</li>
-                  <li>Utilized React hooks,functional components to build pefficient,UI components</li>
+                  <li>Utilized hooks,functional components to build,UI components</li>
                   <li>Worked in an Agile environment, deliver
-                  high-quality software on time.</li>
+                  high-quality software.</li>
                   
                 </div>
 
