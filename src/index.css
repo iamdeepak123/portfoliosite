@@ -204,10 +204,7 @@ html {
 
     }
 
-    .imgs {
-        height: 100%;
-        width: 19%;
-    }
+    
 }
 
 /*---------------Homepage Styling------------------ */
@@ -1030,7 +1027,7 @@ h2 {
 a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 .Call_icon,
@@ -1249,7 +1246,7 @@ a {
     a {
         text-decoration: none;
         color: white;
-        font-size: 15px;
+       
     }
 
 
@@ -1527,8 +1524,6 @@ img {
     height: 100%;
     width: 80%;
     gap: 5px;
-
-
 }
 
 .footer_icon {
@@ -1536,9 +1531,7 @@ img {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #03045E;
     border-radius: 50%;
-
 }
 
 .footer_content {
