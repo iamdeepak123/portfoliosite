@@ -88,7 +88,7 @@ const AboutMe = () => {
                 <div className="skill_image">
 
                   <p className='skillimg'><FaHtml5 style={{color: "red"}}/> </p>
-                  <p>HTML</p>
+                  <p className='skname'>HTML</p>
 
 
                 </div>
@@ -99,7 +99,7 @@ const AboutMe = () => {
                 <div className="skill_image">
 
                   <p className='skillimg'><FaCss3Alt style={{color: "blue"}} /> </p>
-                  <p>CSS5</p>
+                  <p className='skname'>CSS5</p>
                   
                 </div>
                 <div className="skill_name">Experienced</div>
@@ -109,28 +109,28 @@ const AboutMe = () => {
                 <div className="skill_image">
 
                   <p className='skillimg'><AiOutlineJavaScript style={{color: "black"}} /> </p>
-                  <p>JavaScript</p>
+                  <p className='skname'>JavaScript</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>
               <div className="skillbox">
                 <div className="skill_image">
                   <p className='skillimg'> <FaReact style={{color: "blue"}}/> </p>
-                  <p> React-JS</p>
+                  <p className='skname'> React-JS</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>
               <div className="skillbox">
                 <div className="skill_image">
                   <p className='skillimg'> <SiJquery style={{color: "skyblue"}}/></p>
-                  <p> jQuery</p>
+                  <p className='skname'> jQuery</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>
               <div className="skillbox">
                 <div className="skill_image">
                   <p className='skillimg'>  <RiFirebaseFill style={{color: "#FFE200"}} /> </p>
-                  <p> FireStore</p>
+                  <p className='skname'> FireStore</p>
                 </div>
                 <div className="skill_name">Intermediate</div>
               </div>

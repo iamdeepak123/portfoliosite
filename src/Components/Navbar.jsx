@@ -21,7 +21,6 @@ const Navbar = () => {
 
           <li>
             <Link to="Home" onClick={()=> setActive(true)}> Home</Link>
-
           </li>
           <li>
             <Link to="AboutMe" onClick={()=> setActive(true)}> AboutMe</Link>

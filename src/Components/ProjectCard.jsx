@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
                 </div>
 
                 <div className="card_info">
-                    <div className="headingpart">
+                    <div className="headingpart">    
                         <h4 className='project_name'>{name}</h4>
                         <span className='lang_tag'>{lang}</span>
                     </div>
@@ -29,8 +29,8 @@ const ProjectCard = (props) => {
                     <p className='project_description'>{des}</p>
 
                     <div className="card_btn">
-                        <a href={projectcode} target='blank'><button>View Project</button></a>
-                        <a href={codelink} target='blank'><button>View Code</button></a>
+                        <a href={projectcode} target='blank'><button className='button1'>View Project</button></a>
+                        <a href={codelink} target='blank'><button className='button2'>View Code</button></a>
 
                     </div>
                 </div>
