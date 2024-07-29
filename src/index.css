@@ -1070,7 +1070,7 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: black;
+    
     transition: ease-in-out .3s;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 
