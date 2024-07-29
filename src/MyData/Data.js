@@ -12,7 +12,7 @@ const data = [
         codelink: "https://github.com/iamdeepak123/my_ecomm_website",
         projectlink: "https://my-ecomm-website.vercel.app/",
         image: ecom_img,
-        Description: "This is E-Commerce website using React, HTML, CSS and Firebase for authentication. It has features like Product Listings, “Add to Cart” Functionality, Google Authentication,Checkout Process. cart list items is stored at localstorage. The design is fully Responsive for mobile and laptop devices. Cart pAge display product details (name, quantity, price) in the cart and Allow users to adjust quantities or remove items.",
+        Description: "This is an E-Commerce website using React, HTML, CSS and Firebase for authentication. It has features like Product Listings, “Add to Cart” Functionality with selected color and quantity, Google Authentication, Checkout Process. Cart list items is stored at localstorage. The design is fully Responsive for mobile and laptop devices. Cart pAge display product details (name, quantity, price) in the cart and Allow users to adjust quantities or remove items.",
         language: "React-JS",
         featured: true,
     },

@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar_container">
-        <div className="nav_logo">
+        {/* <div className="nav_logo">
           <div className="imgs">< TbLetterD fontSize={"50px"} />
           </div>
-        </div>
+        </div> */}
         
         <ul className={ active ? 'menu_list' : "menu_list active" }>
 
