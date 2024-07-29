@@ -72,11 +72,11 @@ html {
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: end;
     caret-color: transparent;
     background-color: #0077B6;
-    
+
 }
 
 .alert_heading {
@@ -84,46 +84,46 @@ html {
     margin: 0%;
     font-size: 25px;
     height: 40px;
-    text-align: center;
+    text-align: center;  
+    color: red;
+    font-weight: 100;
     align-content: center;
     /* border: 1px solid red;
     background-color: #9d3f00; */
     position: relative;
-    position: relative;
-    animation: mymove 3s;
+    animation: mymove 4s;
     animation-iteration-count: infinite;
 }
 
 @keyframes mymove {
-    from {
-        left: 0px;
+    0% {
+        left: -300px;
     }
 
-    to {
-        left:500px;
+    100%{
+        left: 300px;
     }
 }
 
 
 @media (max-width: 1000px) {
     .alert_heading {
-        
-        font-size: 15px;
+        font-size: 16px;
+        font-weight: bold;
         height: 55px;
         position: relative;
-        position: relative;
-        animation: mymove2 2s;
+        animation: mymove2 3s;
         animation-iteration-count: infinite;
     }
 }
 
 @keyframes mymove2 {
     from {
-        left: 0px;
+        left: -50px;
     }
 
     to {
-        left: 60px;
+        left: 50px;
     }
 }
 
@@ -219,7 +219,7 @@ html {
     justify-content: center;
     align-items: center;
     caret-color: transparent;
-
+    position: relative;
 }
 
 .home_Content_Slider {
@@ -251,7 +251,7 @@ html {
 }
 
 .username {
- 
+
     width: 95%;
     height: 60px;
     /* border: 1px solid red; */
@@ -319,23 +319,27 @@ html {
     width: 95%;
     justify-content: start;
     display: flex;
+    gap: 20px;
     align-content: center;
     margin-top: 10px;
     /* border: 1px solid red; */
 }
 
-.CV_download button {
+.CV_download a {
     height: 95%;
     width: 140px;
     font-size: 16px;
+    text-align: center;
+    align-content: center;
     border: none;
     background-color: blue;
     color: white;
     cursor: pointer;
     transition: .8s;
+    text-decoration: none;
 }
 
-.CV_download button:hover {
+.CV_download a:hover {
     background-color: #03045E;
 }
 
@@ -370,7 +374,6 @@ html {
     .Homepage_container {
         flex-direction: column-reverse;
         gap: 0px;
-
     }
 
     .home_Content_Slider {
@@ -405,26 +408,21 @@ html {
         height: 60px;
 
     }
-
     .social_icons {
         justify-content: space-around;
         height: 16%;
         width: 100%;
     }
 
-
     .CV_download {
         width: 100%;
     }
-
-
 
     .hero_image_Slider {
         width: 90%;
         height: 40%;
 
     }
-
     .hero {
         height: 240px;
         width: 240px;

@@ -2,6 +2,7 @@ import ecom_img from "../images/Ecomm.png";
 import chatimg from "../images/Chat_Image.png"
 import digical from "../images/digical.png"
 import Todoimg from "../images/TodoApp.png"
+import Cv from "../MyData/Deepak_Frontend_CV.pdf"
 
 
 const data = [
