@@ -268,14 +268,14 @@ html {
     width: 95%;
     height: 30px;
     font-size: 20px;
-    font-weight: normal;
+    /* font-weight: normal; */
     align-content: center;
     /* border: 1px solid red; */
 }
 
 .heading_two span {
     color: #FF3147;
-    font-weight: normal;
+    
     text-transform: capitalize;
     font-size: 24px;
     /* border: 1px solid red; */
@@ -287,7 +287,7 @@ html {
     color: #000000;
     /* border: 1px solid red; */
     align-content: start;
-    font-weight: normal;
+    /* font-weight: normal; */
     letter-spacing: 0px;
     text-transform: capitalize;
 }
