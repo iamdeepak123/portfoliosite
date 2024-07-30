@@ -55,7 +55,7 @@ html {
     cursor: pointer;
     font-size: 18px;
     transition: .8s;
-font-weight: normal;
+    font-weight: normal;
 }
 
 .menu_list li:hover {
@@ -234,7 +234,7 @@ font-weight: normal;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    
+
 }
 
 .home_content .heading_one {
@@ -518,12 +518,11 @@ font-weight: normal;
 .education_box {
     width: 95%;
     height: 31%;
-    /* border: 1px solid red; */
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
-    background: rgba(4, 28, 41, 0.6);
-    color: white;
-    opacity: .8;
-
+    background: rgba(0, 0, 0, 0, 0.06);
+    color: #000000;
+    box-sizing: border-box;
     gap: 10px;
     transition: .5s;
     cursor: pointer;
@@ -577,7 +576,7 @@ font-weight: normal;
 
 .collegename {
     color: black;
-    font-weight: normal;
+    font-weight: 500;
 
 }
 
@@ -593,6 +592,9 @@ h3 {
     font-weight: normal;
 }
 
+.Education_name_heading p {
+    font-weight: 300;
+}
 
 .Skills_details {
     width: 100%;
@@ -611,9 +613,6 @@ h3 {
     text-align: center;
     margin: 0px;
     padding: 0px;
-
-
-
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
@@ -680,16 +679,17 @@ h2 {
 
 .skillbox {
     width: 37%;
-    height: 26%;
-    /* border: 1px solid red; */
+    height: 27%;
+    border: 2px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    background: rgba(4, 28, 41, 0.6);
-    color: white;
-    opacity: .8;
+    background: rgba(0, 0, 0, 0, 0.06);
+    color: #000000;
+  
+    box-sizing: border-box;
     transition: .5s;
     cursor: pointer;
 
@@ -727,10 +727,10 @@ h2 {
 .experience_box {
     width: 90%;
     height: 50%;
+    border: 2px solid #000000;
     border-radius: 10px;
-    background: rgba(4, 28, 41, 0.6);
-    color: white;
-    opacity: .8;
+    background: rgba(0, 0, 0, 0, 0.06);
+    color: #000000;
     transition: .5s;
     cursor: pointer;
     display: flex;
@@ -747,7 +747,7 @@ h2 {
 
 .skname {
     color: black;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .exp_part1 {
@@ -792,6 +792,7 @@ h2 {
     width: 100%;
     margin-left: 5px;
     color: black;
+    font-weight: 500;
 }
 
 .exp_part2 {
@@ -810,7 +811,7 @@ h2 {
     text-align: start;
     padding-left: 5px;
     list-style: inside;
-    font-weight: normal;
+    font-weight: 300;
     text-transform: capitalize;
 }
 
@@ -1039,16 +1040,16 @@ h2 {
     /* border: 1px solid black; */
 }
 
-.social_icon_details{
-font-size: 22px;
+.social_icon_details {
+    font-size: 22px;
 }
 
 
 
 .mail_details,
 .Call_details,
-.location_details,.contacta_tag
-{
+.location_details,
+.contacta_tag {
     text-decoration: none;
     color: #000000;
     font-weight: 300;
@@ -1193,7 +1194,7 @@ font-size: 22px;
         gap: 40px;
         height: 900px;
     }
-   
+
     .Contactdetails_slider {
         width: 80%;
         margin-top: 20px;
@@ -1379,7 +1380,7 @@ font-size: 22px;
     gap: 5px;
     box-sizing: border-box;
     caret-color: transparent;
-    background: #d1cdcd;
+    background: #eae3e3;
     font-weight: normal;
     text-transform: capitalize;
 }
@@ -1456,7 +1457,7 @@ img {
     background-color: #1854e0;
     color: #FFFFFF;
     font-size: 13px;
-    
+
 
 }
 
