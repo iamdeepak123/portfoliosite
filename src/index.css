@@ -287,7 +287,8 @@ html {
     color: #000000;
     /* border: 1px solid red; */
     align-content: start;
-    /* font-weight: normal; */
+    font-size: 16px;
+    font-weight: lighter;
     letter-spacing: 0px;
     text-transform: capitalize;
 }
@@ -966,7 +967,6 @@ h2 {
     padding: 0px;
     align-content: center;
     font-size: 29px;
-
     font-weight: normal;
     color: #FF3147;
     /* border: 1px solid red; */
@@ -997,10 +997,7 @@ h2 {
     color: #FFFFFF;
 }
 
-.helloicon {
-    /* border: 1px solid red; */
 
-}
 
 .contact_mh1 h3 {
     font-size: 25px;
@@ -1014,7 +1011,7 @@ h2 {
     width: 100%;
     padding: 0%;
     margin: 0px;
-    font-weight: normal;
+    font-weight: lighter;
     text-transform: capitalize;
     letter-spacing: 0px;
 }
@@ -1037,10 +1034,14 @@ h2 {
     height: 70px;
     display: flex;
     gap: 10px;
-    font-size: 22px;
+    font-size: 20px;
     align-items: center;
 
     /* border: 1px solid black; */
+}
+
+.social_icon_details{
+font-size: 22px;
 }
 
 .mail_details,
@@ -1049,7 +1050,7 @@ h2 {
 a {
     text-decoration: none;
     color: #000000;
-
+    font-weight: lighter;
     /* font-size: 18px; */
 }
 
@@ -1082,8 +1083,8 @@ a {
 
 .social_icon_details a {
     background-color: #000000;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     color: #FAFAFA;
     border-radius: 50%;
     display: flex;

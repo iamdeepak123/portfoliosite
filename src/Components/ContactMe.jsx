@@ -83,7 +83,7 @@ const ContactMe = () => {
 
               <div className="Contact_form">
 
-                <form method="POST" action="https://formspree.io/f/moqggzoy">
+                <form method="POST" action="https://formspree.io/f/mrbzqbjy">
                   <h2 className='form_heading'>Let's <span className='form_heading_icon'><SiKakaotalk style={{backgroundColor: "white"}} />   </span>     </h2>
 
                   <input type="text" placeholder='Your Name' name='Username' required />
