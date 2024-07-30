@@ -660,8 +660,8 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    column-gap: 70px;
-    /* border: 1px solid black; */
+    column-gap: 110px;
+    border: 1px solid black;
 }
 
 .skill_image {
@@ -724,7 +724,7 @@ h2 {
 }
 
 .experience_box {
-    width: 96%;
+    width: 95%;
     height: 51%;
     border: 2px solid #000000;
     border-radius: 10px;
