@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link to="Home" onClick={()=> setActive(true)}> HOME</Link>
           </li>
           <li>
-            <Link to="AboutMe" onClick={()=> setActive(true)}> ABOUT ME</Link>
+            <Link to="AboutMe" onClick={()=> setActive(true)}> ABOUT</Link>
 
           </li>
           <li>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
           </li>
           <li>
-            <Link to="ContactMe" onClick={()=> setActive(true)}> CONTACT ME</Link>
+            <Link to="ContactMe" onClick={()=> setActive(true)}> CONTACT</Link>
 
           </li>
         </ul>

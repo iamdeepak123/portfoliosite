@@ -2,7 +2,6 @@ body {
     padding: 0%;
     margin: 0%;
     font-family: "Roboto", sans-serif;
-    background-color: #abc4ff;
 }
 
 html {
@@ -11,7 +10,7 @@ html {
 
 /* ---------------------Navbar Styling-------------------- */
 .navbar_container {
-    height: 60px;
+    height: 55px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -85,7 +84,7 @@ html {
     padding: 0%;
     margin: 0%;
     font-size: 25px;
-    height: 40px;
+    height: 30px;
     text-align: center;
     font-weight: 100;
     align-content: center;
@@ -211,20 +210,21 @@ html {
 /*---------------Homepage Styling------------------ */
 
 .Homepage_container {
-    height: 800px;
+    height: 750px;
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     caret-color: transparent;
     position: relative;
+    /* border: 1px solid red; */
 }
 
 .home_Content_Slider {
     width: 40%;
     height: 80%;
-
+    /* border: 1px solid red; */
 }
 
 .home_content {
@@ -234,7 +234,7 @@ html {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
+    
 }
 
 .home_content .heading_one {
@@ -366,12 +366,12 @@ html {
 .hero_image_Slider {
     width: 33%;
     height: 80%;
-
+    /* border: 1px solid red; */
 }
 
 .hero {
-    height: 360px;
-    width: 360px;
+    height: 365px;
+    width: 365px;
     /* border: 1px solid black; */
     background-image: url(./images/hero.jpg);
     border-radius: 50%;

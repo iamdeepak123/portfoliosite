@@ -13,8 +13,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <MenuTab/>
+      
        <HomePage />
+       <MenuTab/>
       <AboutMe />
       <MyWork /> 
       <ContactMe />
