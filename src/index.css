@@ -268,6 +268,7 @@ html {
     width: 95%;
     height: 30px;
     font-size: 20px;
+    font-weight: lighter;
     /* font-weight: normal; */
     align-content: center;
     /* border: 1px solid red; */
@@ -275,7 +276,7 @@ html {
 
 .heading_two span {
     color: #FF3147;
-    
+    font-weight: normal;
     text-transform: capitalize;
     font-size: 24px;
     /* border: 1px solid red; */
@@ -1472,7 +1473,7 @@ img {
     padding-left: 10px;
     text-align: justify;
     box-sizing: border-box;
-font-weight: normal;
+    font-weight: lighter;
     /* border: 1px solid red; */
 }
 
