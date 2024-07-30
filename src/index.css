@@ -107,6 +107,7 @@ html {
 @media (max-width: 1000px) {
     .alert_heading {
         font-size: 16px;
+        color: #FF3147;
         height: 55px;
         position: relative;
         animation: mymove2 3s;
