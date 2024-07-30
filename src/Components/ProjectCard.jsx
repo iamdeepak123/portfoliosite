@@ -29,8 +29,8 @@ const ProjectCard = (props) => {
                     <p className='project_description'>{des}</p>
 
                     <div className="card_btn">
-                        <a href={projectcode} target='blank'><button className='button1'>View Project</button></a>
-                        <a href={codelink} target='blank'><button className='button2'>View Code</button></a>
+                        <a href={projectcode} target='blank'><button className='button1'>Project</button></a>
+                        <a href={codelink} target='blank'><button className='button2'> Code</button></a>
 
                     </div>
                 </div>

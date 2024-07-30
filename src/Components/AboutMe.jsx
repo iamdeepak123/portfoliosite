@@ -27,7 +27,7 @@ const AboutMe = () => {
 
             <div className="education_heading">
               {/* <h4>See My</h4> */}
-              <h2> <IoSchool fontSize={"20px"} /> Eductaion
+              <h2> <IoSchool fontSize={"20px"} style={{color: "black"}}/> EDUCATION
               </h2>
             </div>
             <div className="education_list">
@@ -80,7 +80,7 @@ const AboutMe = () => {
 
             <div className="skills_heading">
               {/* <h4>Explore My</h4> */}
-              <h2> <GiSkills fontSize={"20px"} /> Skills </h2>
+              <h2> <GiSkills fontSize={"20px"} style={{color: "black"}}/> SKILLS </h2>
             </div>
 
             <div className="skills_list">
@@ -143,7 +143,7 @@ const AboutMe = () => {
           <div className="Experience_details">
             <div className="experience_heading">
               {/* <h4>Explore My</h4> */}
-              <h2><PiBuildingOfficeBold fontSize={"20px"} /> Experience</h2>
+              <h2><PiBuildingOfficeBold fontSize={"20px"} style={{color: "black"}} /> EXPERIENCE</h2>
             </div>
             <div className="experience_list">
               <div className="experience_box">

@@ -29,7 +29,7 @@ const ContactMe = () => {
             <div className="contact_details_heading">
               <div className='contact_mh1'>
                 <p className='contacth1_icon'><CgHello /></p>
-                <h3 className='contacth1'>Get in Touch</h3>
+                <h3 className='contacth1'>GET IN TOUCH</h3>
               </div>
 
               <p className='contactp1'>I'm currently avaliable to take on new opportunity, so
@@ -41,7 +41,7 @@ const ContactMe = () => {
             <div className="contact_details_info">
                <div className='mail_details'>
                 <p className="Mail_icon"><CiMail /></p>
-                <a href="mailto:deepakkarki.work@gmail.com"> Drop an Email</a>
+                <a href="mailto:deepakkarki.work@gmail.com"> Send Mail</a>
               </div>
               <div className='Call_details'>
                 <p className="Call_icon"><IoMdCall /></p>
@@ -84,14 +84,14 @@ const ContactMe = () => {
               <div className="Contact_form">
 
                 <form method="POST" action="https://formspree.io/f/moqggzoy">
-                  <h2 className='form_heading'>Let's <span className='form_heading_icon'><SiKakaotalk style={{backgroundColor: "green"}} />   </span>     </h2>
+                  <h2 className='form_heading'>Let's <span className='form_heading_icon'><SiKakaotalk style={{backgroundColor: "white"}} />   </span>     </h2>
 
                   <input type="text" placeholder='Your Name' name='Username' required />
 
                   <input type="text" placeholder='Your Email' name='Email' required />
 
                   <textarea type="text" placeholder='Your Message' rows="5" name='Message' required />
-                  <button className='contactform_btn'>Send me a message</button>
+                  <button className='contactform_btn'>SEND ME A MESSAGE</button>
 
                 </form>
               </div>

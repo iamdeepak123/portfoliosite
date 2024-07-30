@@ -10,7 +10,7 @@ const Footer = () => {
 
           <div className="footer_icon"><FaRegCopyright fontSize="20px" /></div>
 
-          <div className='footer_content' > {new Date().getFullYear()} Deepak Karki</div>
+          <div className='footer_content' > {new Date().getFullYear()} DEEPAK KARKI</div>
 
 
 

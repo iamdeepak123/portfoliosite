@@ -18,11 +18,11 @@ const MyWork = () => {
         <div className="mywork_container">
           <div className="mywork_heading">
             <Slide cascade direction='down'>
-              <p> Check Out</p>
+              <p> CHECK OUT</p>
               
             </Slide>
             <Slide cascade direction='up'>
-              <p>My Recent Projects</p>
+              <p>MY RECENT PROJECTS</p>
             </Slide>
           </div>
 

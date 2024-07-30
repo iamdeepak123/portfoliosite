@@ -20,18 +20,18 @@ const Navbar = () => {
         <ul className={ active ? 'menu_list' : "menu_list active" }>
 
           <li>
-            <Link to="Home" onClick={()=> setActive(true)}> Home</Link>
+            <Link to="Home" onClick={()=> setActive(true)}> HOME</Link>
           </li>
           <li>
-            <Link to="AboutMe" onClick={()=> setActive(true)}> AboutMe</Link>
+            <Link to="AboutMe" onClick={()=> setActive(true)}> ABOUT ME</Link>
 
           </li>
           <li>
-            <Link to="Mywork" onClick={()=> setActive(true)}> Mywork</Link>
+            <Link to="Mywork" onClick={()=> setActive(true)}> PROJECTS</Link>
 
           </li>
           <li>
-            <Link to="ContactMe" onClick={()=> setActive(true)}> ContactMe</Link>
+            <Link to="ContactMe" onClick={()=> setActive(true)}> CONTACT ME</Link>
 
           </li>
         </ul>

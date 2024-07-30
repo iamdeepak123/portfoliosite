@@ -24,7 +24,7 @@ const data = [
         projectlink: "https://my-react-chatapp.vercel.app/",
         image: chatimg,
         Description: "This is Chat Room app where you can login using google or create an new account using email/password. It has Real-time chat functionality , Google sign-in using Firebase Authentication. and Chatroom messages stored in Firebase's Cloud Firestore. You have just have to login and enter the chat room Name of your choice and share the same with other, and start chatting with other. This app is fully Responsive for mobile and laptop",
-        language: "Typescript",
+        language: "TypeScript",
         featured: true,
     },
     {
