@@ -22,7 +22,7 @@ const HomePage = () => {
             <h3 className='heading_one'>Hi I'm </h3>
             <span className='username'>Deepak Karki</span>
 
-            <h2 className='heading_two'>And I'm a <span>FRONT END DEVELOPER</span></h2>
+            <h2 className='heading_two'>And I'm <span>FRONT END DEVELOPER</span></h2>
             <p className='short_description'>As a skilled Front-End Developer with more than 2 years of experience, I am specialized in building the client-side of web applications.My expertise includes Creating user-friendly web pages,Designing layouts and ensuring brand consistency,Developing dynamic web applications,Implementing interactive features.</p>
             <div className="social_icons">
               <a href="https://github.com/iamdeepak123" target='blank'><FaGithub /></a>
