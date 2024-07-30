@@ -688,7 +688,6 @@ h2 {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0, 0.06);
     color: #000000;
-  
     box-sizing: border-box;
     transition: .5s;
     cursor: pointer;
@@ -725,8 +724,8 @@ h2 {
 }
 
 .experience_box {
-    width: 90%;
-    height: 50%;
+    width: 96%;
+    height: 51%;
     border: 2px solid #000000;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0, 0.06);

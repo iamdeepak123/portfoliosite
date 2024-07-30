@@ -189,9 +189,9 @@ const AboutMe = () => {
 
                 <div className="exp_part2">
                   <li>Integrated a real-time chat feature using Firebase.</li>
-                  <li>Utilized hooks,functional components to build,UI components</li>
-                  <li>Worked in an Agile environment, deliver high-quality software.</li>
-                  <li> regular code reviews using GitHub , ensuring coding standards.</li>
+                  <li>Utilized hooks,functional components to build project.</li>
+                  <li>Worked in Agile environment,deliver high-quality software.</li>
+                  <li>Regular code review using GitHub, ensuring coding standards.</li>
                 </div>
 
               </div>
