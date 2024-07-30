@@ -55,7 +55,7 @@ html {
     cursor: pointer;
     font-size: 18px;
     transition: .8s;
-
+font-weight: normal;
 }
 
 .menu_list li:hover {
@@ -888,15 +888,13 @@ h2 {
 /* ------------------------------------------------Contactme style-------------------------------- */
 
 .Contactpage_Container {
-    height: 900px;
+    height: 700px;
     width: 100%;
     background-color: #FAFAFA;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .Contactform_slider {
     height: 80%;
@@ -1045,10 +1043,12 @@ h2 {
 font-size: 22px;
 }
 
+
+
 .mail_details,
 .Call_details,
-.location_details,
-a {
+.location_details,.contacta_tag
+{
     text-decoration: none;
     color: #000000;
     font-weight: lighter;
@@ -1092,28 +1092,28 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
     transition: ease-in-out .3s;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 
 }
 
 .social_icon_details a:hover {
-    background-color: #29bf12;
+    background-color: #FAFAFA;
+    color: #000000;
     transform: scale(1.2);
 
 }
 
 .location_map {
     width: 80%;
-    height: 28%;
+    height: 30%;
     /* border: 1px solid black; */
     caret-color: transparent;
 }
 
 .Contact_form {
     width: 80%;
-    height: 50%;
+    height: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1139,7 +1139,6 @@ a {
     outline: none;
     padding-left: 20px;
     box-sizing: border-box;
-
     background-color: #FFFFFF;
     /* border: 1px solid black; */
 }
@@ -1150,7 +1149,6 @@ a {
     margin-bottom: 10px;
     outline: none;
     border: 2px solid;
-    ;
     resize: none;
     padding-left: 20px;
     padding-top: 20px;
@@ -1171,13 +1169,13 @@ a {
     height: 45px;
     width: 97.5%;
     background-color: #FF3366;
-
     color: white;
     text-align: center;
     font-size: large;
     cursor: pointer;
     border: none;
     caret-color: transparent;
+    transition: .5s;
 }
 
 .contactform_btn:hover {
@@ -1193,12 +1191,13 @@ a {
     .Contactpage_Container {
         flex-direction: column;
         gap: 40px;
+        height: 900px;
     }
-
+   
     .Contactdetails_slider {
         width: 80%;
         margin-top: 20px;
-        height: 45%;
+        height: 46%;
     }
 
     .contact_details_info {
@@ -1329,8 +1328,7 @@ a {
 
 .mywork_heading {
     height: 140px;
-    width: 60%;
-
+    width: 65%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
