@@ -2,7 +2,8 @@ import ecom_img from "../images/Ecomm.png";
 import chatimg from "../images/Chat_Image.png"
 import digical from "../images/digical.png"
 import Todoimg from "../images/TodoApp.png"
-import Cv from "../MyData/Deepak_Frontend_CV.pdf"
+import messanger from "../images/MessageApp.png"
+
 
 
 const data = [
@@ -27,8 +28,19 @@ const data = [
         language: "TypeScript",
         featured: true,
     },
+ 
     {
         id: 3,
+        name: "Messenger-App",
+        codelink: "https://github.com/iamdeepak123/k-messenger",
+        projectlink: "https://k-messenger-gold.vercel.app/",
+        image: messanger,
+        Description: "This is a chatting app, simliar to whatsapp. It has a feature of email/password authentication. User can chat with multiple person and the chat record is saved in firestore database, it has logout button and many more features will be added to this app.",
+        language: "React-JS",
+        featured: true,
+    },
+    {
+        id: 4,
         name: "ToDoList-React-App",
         codelink: "https://github.com/iamdeepak123/TodoList-React",
         projectlink: "https://todo-list-react-omega-five.vercel.app/",
@@ -39,7 +51,7 @@ const data = [
     },
 
     {
-        id: 4,
+        id: 5,
         name: "Digital-Calculator",
         codelink: "https://github.com/iamdeepak123/digital_calculator",
         projectlink: "https://digital-calculator-rust.vercel.app/",
@@ -49,7 +61,7 @@ const data = [
         featured: true,
     },
     {
-        id: 5,      
+        id: 6,      
         name: "ToDoList-JS",
         codelink: "https://github.com/iamdeepak123/Mytodolist-project",
         projectlink: "https://my-todolist-project.vercel.app/",
@@ -59,7 +71,7 @@ const data = [
         featured: false,
     },
     {
-        id: 6,
+        id: 7,
         name: "Client-WebHomepage",
         codelink: "https://github.com/iamdeepak123/webhomepage",
         projectlink: "https://webhomepage.vercel.app/",
@@ -69,7 +81,7 @@ const data = [
         featured: false,
     },
     {
-        id: 7,
+        id: 8,
         name: "Clock",
         codelink: "https://github.com/iamdeepak123/digital_analog_clock",
         projectlink: "https://digital-analog-clock-seven.vercel.app/",

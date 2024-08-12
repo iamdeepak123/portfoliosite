@@ -659,9 +659,6 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* gap: 10px;
-    column-gap: 110px; */
-    /* border: 1px solid black; */
     gap: 5px;
 }
 
